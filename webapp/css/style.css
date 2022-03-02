@@ -1,0 +1,17 @@
+html[dir="ltr"] .myAppDemoWT .myCustomButton.sapMBtn {
+    margin-right: 0.125rem;
+}
+
+html[dir="rtl"] .myAppDemoWT .myCustomButton.sapMBtn {
+    margin-left: 0.125rem;
+}
+
+/* html direction = left to right or right to left 
+
+Isso se refere a direção da escrita, tipo Árabe se escreve de trás pra frente.
+Loucura*/
+
+.myAppDemoWT .myCustomText {
+    display: inline-block;
+    font-weight: bold;
+}
