@@ -2,7 +2,7 @@ sap.ui.define([
     // Bibliotecas utilizadas
     "sap/ui/core/mvc/Controller",
     "sap/m/MessageToast",
-], (Controller, MessageToast) => {
+], function (Controller, MessageToast) {
     "use strict"
 
     // Definição do controller
