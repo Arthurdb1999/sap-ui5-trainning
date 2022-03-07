@@ -15,3 +15,12 @@ Loucura*/
     display: inline-block;
     font-weight: bold;
 }
+
+/* Product Rating */
+.myAppDemoWTProductRating {
+    padding: 0.75rem;
+}
+
+.myAppDemoWTProductRating .sapMRI {
+    vertical-align: initial;
+}
