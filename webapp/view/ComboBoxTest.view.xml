@@ -1,0 +1,26 @@
+<mvc:View
+    controllerName="sap.ui.demo.walkthrough.controller.ComboBoxTest"
+    xmlns="sap.m"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:core="sap.ui.core"
+    >
+    <Panel
+        headerText="{i18n>comboBoxTestPanelTitle}"
+        width="auto"
+        class="sapUiResponsiveMargin">
+        <Select width="100%"
+          change="onConnectionChange"
+          items="{ui>/connections}"
+          selectedKey="{ui>/selectedConnection}">
+            <core:Item key="{ui>key}"
+            text="{ui>value}"/>
+        </Select>
+        <Select width="100%"
+          change="onConnectionChange2"
+          items="{ui>/connections2}"
+          selectedKey="{ui>/selectedConnection2}">
+            <core:Item key="{ui>key}"
+            text="{ui>value}"/>
+        </Select>
+    </Panel>
+</mvc:View>
